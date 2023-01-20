@@ -2,7 +2,14 @@ body {
  background-color:#202020;
 }
 
-div {
+div.top {
+ position:static;
+ padding:5px;
+ margin-bottom:20px;
+ background-color:#404040;
+}
+
+div.main {
  position:static;
  border:2px solid #808080;
  border-radius:10px;
@@ -26,6 +33,7 @@ h3 {
 }
 
 h4 {
+ text-indent:10px;
  color:#E0E0E0;
 }
 
@@ -39,6 +47,11 @@ h6 {
 
 p {
  text-indent:10px;
+ color:#E0E0E0;
+}
+
+p.link {
+ text-indent:20px;
  color:#E0E0E0;
 }
 
