@@ -19,6 +19,16 @@ div.main {
  background-color:#404040;
 }
 
+div.cc {
+ position:static;
+ border:2px solid #808080;
+ border-radius:10px;
+ padding:20px;
+ margin-right:50px;
+ margin-left:50px;
+ background-color:#E0E0E0;
+}
+
 h1 {
  text-align:center;
  color:#E0E0E0;
